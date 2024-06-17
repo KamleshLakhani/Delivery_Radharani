@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "122222117564",
+    "firebase_url": "https://radharani-s-kitchen.firebaseio.com",
+    "project_id": "radharani-s-kitchen",
+    "storage_bucket": "radharani-s-kitchen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122222117564:android:17cfc953c9eaaea1a4c6b9",
+        "android_client_info": {
+          "package_name": "com.delivery.radharaniskitchen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "122222117564-mc67s0g176l4dte785hfmqt9hq06oss2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9npt7zydujGQZ4CO7m6eFroyS0LSuobI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "122222117564-mc67s0g176l4dte785hfmqt9hq06oss2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
