@@ -27,7 +27,6 @@ void main() {
 
 class MyApp extends StatelessWidget {
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -56,7 +55,7 @@ class _SplashActivityState extends State<SplashActivity> {
     if (data != '') {
       Login res = Login.fromJson(json.decode(data));
       Constant.token = res.accessToken;
-
+      //token
       print('token ## ${Constant.token}');
     } else {
       Constant.token = '';
