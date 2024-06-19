@@ -1,7 +1,7 @@
 class ApiSheet {
   // static String preBaseUrl = 'http://sixty13.com/laravel/radha-ranis/';
-  static String preBaseUrl = "https://www.radharaniskitchendelivery.com/";
-  // static String preBaseUrl = 'http://192.168.0.30/laravel/radha-rani/';
+  //static String preBaseUrl = "https://www.radharaniskitchendelivery.com/";
+   static String preBaseUrl = 'http://192.168.0.30/laravel/radha-rani/';
   static String imageUrl = preBaseUrl + "storage/app/public/delivery-boy/";
   static String baseUrl = preBaseUrl + "api/deliveryboy/";
 

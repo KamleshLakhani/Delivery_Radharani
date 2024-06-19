@@ -34,15 +34,15 @@ class _MyProfileActivityState extends State<MyProfileActivity> {
   ProfileData data;
 
   Future getImage(BuildContext context) async {
-  //   final pickedFile =
-  //       await ImagePicker().getImage(source: ImageSource.gallery);
-  //
-  //   if (pickedFile.path != null) {
-  //     setState(() {
-  //       _image = File(pickedFile.path);
-  //       startImageUpload(context);
-  //     });
-  //   }
+    final pickedFile =
+        await ImagePicker().getImage(source: ImageSource.gallery);
+
+    if (pickedFile.path != null) {
+      setState(() {
+        _image = File(pickedFile.path);
+        startImageUpload(context);
+      });
+    }
   }
 
   Future<Profile> getDeliverProfile(BuildContext context) async {
